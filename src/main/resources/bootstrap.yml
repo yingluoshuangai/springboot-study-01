@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /study01 # 应用命名空间
+  port: 8082 # 端口号

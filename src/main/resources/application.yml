@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: springboot-study-01 # 应用名称
+#  profiles:
+#    active: dev # 选择子配置文件
+server:
+  servlet:
+    context-path: /study # 应用命名空间
+  port: 8000 # 端口号
+
+test:
+  config:
+    name: 配置
+    password: f12sfa@1&
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true # 操作控制类端点，可以关闭应用，默认为false关闭
+  endpoints:
+    web:
+      exposure:
+        include: "*" # '*' 表示打开所有web端点，也可以通过数组，指定打开那些端点
+
+info:
+  app:
+    name: study-01
+    groupId: xyz.xnmq.study-01
+    version: 2.1.4.RELEASE
+    remark: 没问题
+  detail:
+    described: 学习springcloud
