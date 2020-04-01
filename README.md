@@ -5,3 +5,6 @@
 * 异步任务
 * 开机自启动任务
 * Actuator
+* 配置注入方式
+* springboot三种启动方式
+* springboot默认连接池 HikariCP
